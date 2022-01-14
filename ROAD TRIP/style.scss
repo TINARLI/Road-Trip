@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(Road.jpeg);
+    font-family: sans-serif;
+    width: 100%;
+  height: 100%;
+  
+
+}
+.menu-bar{
+    background : #5b71b5;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 170px;
+    margin: 10px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.menu-bar ul li:hover{
+    background: #d4c995;
+    border-radius: 8px;
+}
+.menu-bar .fas{
+    margin-right: 6px;
+}
+.sub-menu{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #5b71b5;
+    margin-top: 13px;
+    margin-left: -15px;
+    font-size: 13px;
+
+}
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+
+}
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 8px;
+    border-bottom: 1px dotted #ffff;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+    cursor: pointer;
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: rgb(55, 255, 195);
+}
+.fa-suitcase-rolling{
+font-size: 15px; 
+color: #ffff;
+float: right;   
+}
+.fa-building{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+} 
+.fa-couch{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-car-side{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-truck{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-truck-monster{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-plane-departure{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-bus{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.fa-train{
+    font-size: 15px; 
+color: #ffff;
+float: right; 
+}
+.container {
+    margin-left: 63%;
+    width: 28%;
+  height: 100%;
+    background-color: #4871ec6e;
+    color: #fff;
+    padding: 3rem;
+    transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+    -moz-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    -o-transform: translateX(30%);
+  }
+  .container h3 {
+    margin-bottom: 2rem;
+  }
+  .form-control {
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  .form-control:last-child {
+    margin-bottom: 0;
+  }
+  .form-control input,
+  .form-control textarea {
+    padding: 0.5rem;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+  }
+  .form-control input ~ label,
+  .form-control textarea ~ label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    padding: 0.5rem;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+  }
+  
+  .form-control input:focus ~ label,
+  .form-control textarea:focus ~ label,
+  .form-control input:valid ~ label,
+  .form-control textarea:valid ~ label {
+    top: -1.5rem;
+    color: red;
+    font-size: 0.8rem;
+  }
+  .form-control input:focus ~ label,
+  .form-control textarea:focus ~ label,
+  .form-control input:valid ~ label,
+  .form-control textarea:valid ~ label {
+    top: -1.5rem;
+    color: red;
+    font-size: 0.8rem;
+  }
+  .form-control input[type="submit"] {
+    background-color: blueviolet;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+    padding: 1rem 0rem;
+  }
+  .form-control input[type="submit"]:hover {
+    background-color: crimson;
+  }
+  
